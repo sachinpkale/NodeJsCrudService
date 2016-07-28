@@ -1,7 +1,7 @@
 require("babel-polyfill");
+
 var bodyParser = require('body-parser');
 
-var manager = require('./manager')
 var dao = require('./dao')
 
 var express = require('express')
